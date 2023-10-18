@@ -1,0 +1,38 @@
+.card {
+    background-color: #2948ff;
+    
+   width: 300px; 
+   height: 440px;
+   color: white;
+   border-radius: 10px;
+   margin: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 10px 5px 5px rgba(111, 119, 217);
+    gap: 45px;
+
+
+ @media (max-width: 600px) {
+  border-color: blueviolet;
+}
+
+
+}
+.weather{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.city {
+    font-size: 40px;
+}
+.wind {
+    font-size: 20px;
+}
+.code {
+    font-size: 15px;
+}
+
